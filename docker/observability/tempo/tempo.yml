@@ -5,8 +5,8 @@ distributor:
   receivers:
     otlp:
       protocols:
-        grpc:
         http:
+        grpc:
 
 storage:
   trace:
