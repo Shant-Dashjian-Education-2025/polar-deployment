@@ -30,13 +30,13 @@ spec:
             httpGet:
               path: /realms/master
               port: 8080
-            failureThreshold: 40
+            failureThreshold: 150
             periodSeconds: 10
           readinessProbe:
             httpGet:
               path: /realms/master
               port: 8080
-            initialDelaySeconds: 50
+            initialDelaySeconds: 150
             periodSeconds: 10
           resources:
             requests:
