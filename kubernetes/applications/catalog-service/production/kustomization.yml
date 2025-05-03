@@ -18,8 +18,8 @@ configMapGenerator:
 images:
 - name: catalog-service
   newName: ghcr.io/shant-dashjian-education-2025/catalog-service
-  newTag: 907447209729512c1736b1b51bee64fbf18e4235
+  newTag: c166a123a23cb8cec3a5d4714bfa44003e0a0597
 
 replicas:
-- count: 2
+- count: 4
   name: catalog-service
